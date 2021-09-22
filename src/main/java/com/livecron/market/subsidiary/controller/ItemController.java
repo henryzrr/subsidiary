@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/")
+@RequestMapping("/items")
 public class ItemController extends GenericController<Item, ItemDto> {
     private final ItemService service;
 

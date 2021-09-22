@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/")
+@RequestMapping("/productos")
 public class ProductoController extends GenericController<Producto, ProductoDto> {
     private final ProductoService service;
 

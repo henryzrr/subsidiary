@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/")
+@RequestMapping("/pedidos")
 public class PedidoController extends GenericController<Pedido, PedidoDto> {
     private final PedidoService service;
 

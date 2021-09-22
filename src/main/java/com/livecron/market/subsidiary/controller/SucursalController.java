@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/")
+@RequestMapping("/sucursales")
 public class SucursalController extends GenericController<Sucursal, SucursalDto> {
     private final SucursalService service;
 

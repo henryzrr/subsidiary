@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/")
+@RequestMapping("/inventarios")
 public class InventarioController extends GenericController<Inventario, InventarioDto> {
     private final InventarioService service;
 
