@@ -9,8 +9,11 @@ import lombok.Setter;
 import com.livecron.market.subsidiary.model.Inventario;
 import com.livecron.market.generics.DtoBase;
 
+
 @Getter
 @Setter
 public class InventarioDto extends DtoBase<Inventario> {
 
+    private String codigo;
+    private SucursalDto sucursal;
 }

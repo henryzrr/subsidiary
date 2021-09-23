@@ -9,8 +9,13 @@ import lombok.Setter;
 import com.livecron.market.subsidiary.model.Sucursal;
 import com.livecron.market.generics.DtoBase;
 
+
 @Getter
 @Setter
 public class SucursalDto extends DtoBase<Sucursal> {
+
+    private String codigo;
+    private String nombre;
+    private String telefono;
 
 }
